@@ -11,6 +11,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { UsuarioComponent } from './_components/usuario/usuario.component';
 import { BaseUiComponent } from './_components/base-ui/base-ui.component';
+import { LoginComponent } from './pages/login/login.component';
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { ConfirmacaoComponent } from './pages/confirmacao/confirmacao.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { BaseUiComponent } from './_components/base-ui/base-ui.component';
     PerfilComponent,
     UsuarioComponent,
     BaseUiComponent,
+    LoginComponent,
+    CadastroComponent,
+    ConfirmacaoComponent,
 
   ],
   imports: [

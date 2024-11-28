@@ -5,8 +5,8 @@
 }
 /*Imagem de fundo*/
 body{
-  background: rgb(29,154,205);
-  background: linear-gradient(146deg, rgba(29,154,205,1) 0%, rgba(0,0,0,1) 100%);
+  background: rgb(65,65,65);
+  background: linear-gradient(322deg, rgba(65,65,65,1) 0%, rgba(194,194,194,1) 55%, rgba(255,255,255,1) 100%); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@ body{
   width: 350px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 20% 0;
-  box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+  box-shadow: -6px -5px 6px #c8c8c8, 20px 15px 50px #000;
   padding: 50px 20px;
 }
 
@@ -63,12 +63,12 @@ label{
 
 input:focus + label{
   transform: translateY(-14px) scale(.8);
-  color:rgb(29,154,205)
+  color:rgb(0, 0, 0)
 }
 
 input:focus{
-  box-shadow: 0 1px 0 0 rgb(29,154,205);
-  border-bottom: rgb(29,154,205) 1px solid;
+  box-shadow: 0 1px 0 0 rgb(40, 40, 40);
+  border-bottom: rgb(40, 40, 40) 1px solid;
 }
 
 .center{
@@ -86,10 +86,11 @@ input:focus{
   margin: 20px;
   cursor: pointer;
   transition: ease-in-out .25s;
+
 }
 
 .button:hover{
-  background: rgb(29,154,205, 0.5);
+  background: rgba(41, 41, 41, 0.5);
 }
 
 div a{
@@ -99,12 +100,12 @@ div a{
 }
 
 div a:hover{
-  color:rgb(29,154,205);
+  color:rgb(0, 0, 0);
 }
 
 input:not(:placeholder-shown){
-  box-shadow: 0 1px 0 0 rgb(29,154,205);
-  border-bottom: rgb(29,154,205) 1px solid;
+  box-shadow: 0 1px 0 0 rgb(40, 40, 40);
+  border-bottom: rgb(40, 40, 40) 1px solid;
 }
 
 input:not(:placeholder-shown) + label{

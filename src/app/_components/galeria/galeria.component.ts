@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './galeria.component.css'
 })
 export class GaleriaComponent {
-  imagens = [
-    { url: 'https://s.tmimgcdn.com/scr/800x500/52500/modelo-de-site-corporativo-responsivo-gratuito_52524-0-original.jpg', titulo: 'Exemplo 1' },
-    { url: 'https://s.tmimgcdn.com/scr/800x500/52500/modelo-de-site-corporativo-responsivo-gratuito_52524-0-original.jpg', titulo: 'Exemplo 2' },
-    { url: 'https://s.tmimgcdn.com/scr/800x500/52500/modelo-de-site-corporativo-responsivo-gratuito_52524-0-original.jpg', titulo: 'Exemplo 3' },
-    { url: 'https://s.tmimgcdn.com/scr/800x500/52500/modelo-de-site-corporativo-responsivo-gratuito_52524-0-original.jpg', titulo: 'Exemplo 4' }
+  link = [
+    { url: 'Blog.png', titulo: 'Blog', a: '/blog' },
+    { url: 'Loja.png', titulo: 'Loja', a: '/loja' },
+    { url: 'Portifólio.png', titulo: 'Portifólio', a: '/portifolio' },
+    { url: 'Receitas.png', titulo: 'Receitas', a: '/receitas' }
   ];
 
 }

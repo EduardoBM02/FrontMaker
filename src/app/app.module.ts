@@ -14,6 +14,10 @@ import { BaseUiComponent } from './_components/base-ui/base-ui.component';
 import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { ConfirmacaoComponent } from './pages/confirmacao/confirmacao.component';
+import { BlogComponent } from './_components/galeria/exemplos/blog/blog.component';
+import { LojaComponent } from './_components/galeria/exemplos/loja/loja.component';
+import { PortifolioComponent } from './_components/galeria/exemplos/portifolio/portifolio.component';
+import { ReceitasComponent } from './_components/galeria/exemplos/receitas/receitas.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +32,10 @@ import { ConfirmacaoComponent } from './pages/confirmacao/confirmacao.component'
     LoginComponent,
     CadastroComponent,
     ConfirmacaoComponent,
+    BlogComponent,
+    LojaComponent,
+    PortifolioComponent,
+    ReceitasComponent,
 
   ],
   imports: [

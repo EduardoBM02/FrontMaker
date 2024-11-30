@@ -1,22 +1,35 @@
+*{
+  text-decoration: none;
+}
+
 .galeria {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px; /* Espaço entre os itens */
+  gap: 60px; /* Espaço entre os itens */
 }
 
 .item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px; /* Tamanho fixo para os itens */
+  width: 200px; /* Tamanho fixo para os itens */
   text-align: center;
 }
 
 .item img {
-  width: 100%; /* Ajusta a imagem ao tamanho do item */
-  height: auto; /* Mantém a proporção da imagem */
+  width: 120%; /* Ajusta ao tamanho do contêiner do item */
+  height: 170px; /* Define uma altura fixa */
+  object-fit: cover; /* Corta a imagem para preencher o espaço sem distorção */
   border-radius: 8px; /* Bordas arredondadas */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+  transition: .35s;
+  cursor: pointer;
+}
+
+
+.item:hover{
+  transform: translateY(-10px);
+  transform: scale(1.1);
 }
 
 .item h3 {

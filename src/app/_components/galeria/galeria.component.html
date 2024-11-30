@@ -1,6 +1,8 @@
 <ul class="galeria">
-  <li class="item" *ngFor="let imagem of imagens">
-    <img [src]="imagem.url" [alt]="imagem.titulo" />
-    <h3>{{ imagem.titulo }}</h3>
+  <li class="item" *ngFor="let link of link">
+    <a [href]="link.a">
+      <img [src]="link.url" [alt]="link.titulo" />
+      <h3>{{ link.titulo }}</h3>
+    </a>
   </li>
 </ul>

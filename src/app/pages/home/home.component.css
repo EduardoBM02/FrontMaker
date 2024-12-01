@@ -1,0 +1,34 @@
+#div2{
+  position: relative;
+  margin: -1%;
+  padding: 6%;
+  width: 101%;
+  left: 1vh;
+  bottom: 13vh;
+  border-radius: 1vh;
+  background-image: linear-gradient(180deg, rgba(0, 102, 255, 0.966), rgb(255, 255, 255));
+}
+
+#TITULO{
+  position: relative;
+  text-align: center;
+  font-size: 5vh;
+  top: 3vh;
+  z-index: 10;
+}
+
+#SUBTITULO{
+  position: relative;
+  text-align: center;
+  font-size: 4vh;
+  top: 4vh;
+  z-index: 10;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#informa{
+  position: relative;
+  font-size: 2.8vh;
+  top: 43vh;
+  word-spacing: 0.4vh;
+}

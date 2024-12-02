@@ -1,19 +1,10 @@
-<form class="mb-3" [formGroup]="userForm">
-<div class="row">
-  <div class="form-gourp col-md-3">
-    <label for="nome">Nome:</label>
-    <input id="nome" type="text" class="form-control" formControlName="nome"/>
+<div class="user-profile p-3">
+  <h2>Perfil do Usuário</h2>
+  <div *ngIf="user">
+    <p><strong>Nome:</strong> {{ user.nome }}</p>
+    <p><strong>Email:</strong> {{ user.email }}</p>
   </div>
-  <div class="form-gourp col-md-2">
-    <label for="idade">Idade:</label>
-    <input id="idade" type="number" class="form-control" formControlName="idade"/>
+  <div *ngIf="!user">
+    <p>Carregando informações do usuário...</p>
   </div>
 </div>
-<button (click)="submitForm()" class="btn btn-success mt-3">Enviar</button>
-
-<div *ngIf="mostrarDados" class="userForm mt-3 p-3">
-  <h2>Dados Enviados:</h2>
-  <p><strong>Nome:</strong> {{ user.nome }}</p>
-  <p><strong>Idade:</strong> {{ user.idade }}</p>
-</div>
-</form>

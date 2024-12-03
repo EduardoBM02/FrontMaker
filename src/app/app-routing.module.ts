@@ -1,10 +1,6 @@
 import { NgModule } from '@angular/core';
 import { HomeComponent } from './pages/home/home.component';
-import { FormsModule } from '@angular/forms';  // Certifique-se de que está importado
-import { PerfilComponent } from './pages/perfil/perfil.component';
-import { LoginComponent } from './pages/login/login.component';
-import { CadastroComponent } from './pages/cadastro/cadastro.component';
-import { ConfirmacaoComponent } from './pages/confirmacao/confirmacao.component';
+import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { ReceitasComponent } from './_components/galeria/exemplos/receitas/receitas.component';
 import { BlogComponent } from './_components/galeria/exemplos/blog/blog.component';
@@ -12,11 +8,7 @@ import { LojaComponent } from './_components/galeria/exemplos/loja/loja.componen
 import { PortifolioComponent } from './_components/galeria/exemplos/portifolio/portifolio.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
-  {path: 'perfil', component: PerfilComponent},
-  {path: '', component: LoginComponent},  { path: 'login', component: LoginComponent },
-  {path: 'cadastro', component: CadastroComponent},
-  {path: 'cadastro/confirmacao', component: ConfirmacaoComponent},
+  {path: '', component: HomeComponent},
   {path: 'blog', component: BlogComponent},
   {path: 'loja', component: LojaComponent},
   {path: 'portifolio', component: PortifolioComponent},

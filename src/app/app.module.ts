@@ -18,6 +18,8 @@ import { BlogComponent } from './_components/galeria/exemplos/blog/blog.componen
 import { LojaComponent } from './_components/galeria/exemplos/loja/loja.component';
 import { PortifolioComponent } from './_components/galeria/exemplos/portifolio/portifolio.component';
 import { ReceitasComponent } from './_components/galeria/exemplos/receitas/receitas.component';
+import { CommonModule } from '@angular/common'; // Importe o módulo necessário
+
 
 @NgModule({
   declarations: [
@@ -36,12 +38,13 @@ import { ReceitasComponent } from './_components/galeria/exemplos/receitas/recei
     LojaComponent,
     PortifolioComponent,
     ReceitasComponent,
+    CommonModule,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule, HttpClientModule 
+    ReactiveFormsModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

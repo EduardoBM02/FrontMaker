@@ -1,12 +1,21 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { AuthService } from '../../servicos/auth.service';
 
 @Component({
   selector: 'app-cadastro',
-  standalone: false,
-  
   templateUrl: './cadastro.component.html',
-  styleUrl: './cadastro.component.css'
 })
 export class CadastroComponent {
+  login = '';
+  email = '';
+  senha = '';
 
+  constructor(private authService: AuthService, private router: Router) {}
+
+  cadastrar(): void {
+    this.authService.cadastrar(this.login, this.email, this.senha);
+    alert('Cadastro realizado com sucesso!');
+    this.router.navigate(['/login']);
+  }
 }

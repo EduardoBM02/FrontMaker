@@ -1,8 +1,8 @@
 <div class="user-profile p-3">
   <h2>Perfil do Usuário</h2>
   <div *ngIf="user">
-    <p><strong>Nome:</strong> {{ user.nome }}</p>
-    <p><strong>Email:</strong> {{ user.email }}</p>
+    <p><strong>Nome:</strong> {{ dados?.login }}</p>
+    <p><strong>Email:</strong> {{ dados?.email }}</p>
   </div>
   <div *ngIf="!user">
     <p>Carregando informações do usuário...</p>

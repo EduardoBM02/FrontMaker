@@ -8,16 +8,13 @@ import { NavbarComponent } from './_components/navbar/navbar.component';
 import { FooterComponent } from './_components/footer/footer.component';
 import { GaleriaComponent } from './_components/galeria/galeria.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { PerfilComponent } from './pages/perfil/perfil.component';
-import { UsuarioComponent } from './_components/usuario/usuario.component';
 import { BaseUiComponent } from './_components/base-ui/base-ui.component';
-import { LoginComponent } from './pages/login/login.component';
-import { CadastroComponent } from './pages/cadastro/cadastro.component';
-import { ConfirmacaoComponent } from './pages/confirmacao/confirmacao.component';
 import { BlogComponent } from './_components/galeria/exemplos/blog/blog.component';
 import { LojaComponent } from './_components/galeria/exemplos/loja/loja.component';
 import { PortifolioComponent } from './_components/galeria/exemplos/portifolio/portifolio.component';
 import { ReceitasComponent } from './_components/galeria/exemplos/receitas/receitas.component';
+import { CommonModule } from '@angular/common';
+import { UsuarioComponent } from './_components/usuario/usuario.component';
 
 @NgModule({
   declarations: [
@@ -26,12 +23,8 @@ import { ReceitasComponent } from './_components/galeria/exemplos/receitas/recei
     NavbarComponent,
     FooterComponent,
     GaleriaComponent,
-    PerfilComponent,
     UsuarioComponent,
     BaseUiComponent,
-    LoginComponent,
-    CadastroComponent,
-    ConfirmacaoComponent,
     BlogComponent,
     LojaComponent,
     PortifolioComponent,
@@ -42,6 +35,7 @@ import { ReceitasComponent } from './_components/galeria/exemplos/receitas/recei
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

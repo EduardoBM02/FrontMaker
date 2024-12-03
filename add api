@@ -1,0 +1,60 @@
+[33mcommit 424279fafe08860247e110d20c9d4d9bd0be32c2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Duba <eduardobarrosm02@gmail.com>
+Date:   Tue Dec 3 08:27:26 2024 -0300
+
+    cadastro e confirmacao
+
+[33mcommit d30a8035bfa51df4461ce6e4d92c864b9887812c[m
+Author: Duba <eduardobarrosm02@gmail.com>
+Date:   Mon Dec 2 08:58:19 2024 -0300
+
+    att tudo
+
+[33mcommit 761e51951ea619a809b13dc509b2cd7e79e663bf[m
+Author: Duba <eduardobarrosm02@gmail.com>
+Date:   Mon Dec 2 08:26:30 2024 -0300
+
+    arq services
+
+[33mcommit 0e395c92b1db3695cbffe48b18b6388260531f5d[m
+Author: Duba <eduardobarrosm02@gmail.com>
+Date:   Sun Dec 1 21:22:31 2024 -0300
+
+    add api
+
+[33mcommit 8536f15f9f01d70cede1dcf5a623563958f62ed1[m
+Author: Duba <eduardobarrosm02@gmail.com>
+Date:   Sun Dec 1 19:15:44 2024 -0300
+
+    att home
+
+[33mcommit ef61a0a1a3dc0c3ba7eebde763337bc4d6cda136[m[33m ([m[1;31morigin/alteracao-login[m[33m)[m
+Merge: 8427b04 0b16d91
+Author: Duba <eduardobarrosm02@gmail.com>
+Date:   Fri Nov 29 22:22:53 2024 -0300
+
+    Merge branch 'main' of https://github.com/EduardoBM02/FrontMaker
+
+[33mcommit 8427b047b38c4ed547a4b716511ae366f688a12d[m
+Author: Duba <eduardobarrosm02@gmail.com>
+Date:   Fri Nov 29 22:15:25 2024 -0300
+
+    att login
+
+[33mcommit 0b16d916efb9be8e90f7d9ebff8fc651d89a6a36[m[33m ([m[1;31morigin/att-login[m[33m)[m
+Author: Gerson <gersinhomesquita@gmail.com>
+Date:   Thu Nov 28 19:41:20 2024 -0300
+
+    Atualizando projeto
+
+[33mcommit 1655665e595bcee232d045ffe5c5587b93d6c41b[m
+Author: Duba <eduardobarrosm02@gmail.com>
+Date:   Wed Nov 27 11:52:15 2024 -0300
+
+    alteracoes paginas
+
+[33mcommit 9f340278ce53cad836c03854771585b7dfcefb7e[m[33m ([m[1;31morigin/altera-pages[m[33m)[m
+Author: Duba <eduardobarrosm02@gmail.com>
+Date:   Mon Nov 25 17:40:27 2024 -0300
+
+    primeiro commit

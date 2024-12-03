@@ -1,45 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, Validators} from '@angular/forms';
-import { User } from '../../_models/user';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-usuario',
-  standalone: false,
-
   templateUrl: './usuario.component.html',
-  styleUrl: './usuario.component.css'
+  standalone: false
 })
 export class UsuarioComponent implements OnInit {
+  user: { nome: string, email: string } | null = null;
+  dados: { login: string; email: string } | null = null;
 
-  mostrarDados = false;
-
-  userForm: FormGroup = new FormGroup({});
-
-  constructor(private fb: FormBuilder) {}
+  constructor(private authService: AuthService) {}
 
   ngOnInit(): void {
-    this.initializateForm();
+    this.dados = this.authService.obterDados();
   }
-
-  initializateForm() {
-    this.userForm = this.fb.group({
-      nome: ['', Validators.required],
-      idade: [null, [Validators.required, Validators.min(0)]]
-    });
-  }
-
-  user = {
-    nome: '',
-    idade: null
-  }
-
-  submitForm() {
-    if (this.userForm.valid){
-      this.user = this.userForm.value;
-      this.userForm.reset;
-    }
-    this.mostrarDados=true;
-    this.userForm.reset();
-  }
-
 }
